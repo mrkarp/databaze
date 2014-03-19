@@ -12,18 +12,22 @@ public class Game extends StateBasedGame{
    public static final int black = 0;
    public static final int splash = 1;
    public static final int menu = 2;
+   public static final int login = 3;
+
      
    public Game(String gamename){
       super(gamename);
       this.addState(new Black(black));
       this.addState(new Splash(splash));
       this.addState(new Menu(menu));
+      this.addState(new LogIn(login));
    }
    
    public void initStatesList(GameContainer gc) throws SlickException{
 	  this.getState(splash).init(gc, this);
       this.getState(menu).init(gc, this);
       this.getState(black).init(gc, this);
+      this.getState(login).init(gc, this);
       this.enterState(black, new FadeOutTransition(Color.black, 0), new FadeInTransition(Color.black, 5000));
       System.out.println("Switching to Black");
    }
