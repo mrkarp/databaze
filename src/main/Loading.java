@@ -13,13 +13,13 @@ import org.newdawn.slick.state.StateBasedGame;
 import org.newdawn.slick.state.transition.FadeInTransition;
 import org.newdawn.slick.state.transition.FadeOutTransition;
 
-public class Black extends BasicGameState {
+public class Loading extends BasicGameState {
 	Audio karpCodeLogo = sound.CustomMusic.karpCodeLogo;
 	//Image loadingGear;
 	SpriteSheet gearAnim;
 	Animation gearAnimLoad;
 
-	public Black(int state) {
+	public Loading(int state) {
 	}
 
 	public void init(GameContainer gc, StateBasedGame sbg) throws SlickException {
@@ -36,7 +36,7 @@ public class Black extends BasicGameState {
 
 	public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException {
 		sbg.enterState(1, new FadeOutTransition(Color.black, 0000),new FadeInTransition(Color.black, 4000));
-		System.out.println("Switching to Splash");
+		System.out.println("**Splash**");
 		karpCodeLogo.playAsMusic(1, 1, false);
 	}
 

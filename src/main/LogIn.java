@@ -22,7 +22,7 @@ public class LogIn extends BasicGameState {
 
 	public void render(GameContainer gc, StateBasedGame sbg, Graphics g) throws SlickException {
 		backGround.draw(0, 0);
-		g.drawString("test", 25, 25);
+		g.drawString("test", 98, 107);
 	}
 
 	public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException {
