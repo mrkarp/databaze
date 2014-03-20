@@ -35,7 +35,7 @@ public class Splash extends BasicGameState{
 	   menuMusic.stop();
 	   sbg.enterState(2, new FadeOutTransition(Color.black, 0000), new FadeInTransition(Color.black, 4000));
 	   System.out.println("Switching to Menu");
-	   menuMusic.playAsMusic(1, 1, true);
+	   //menuMusic.playAsMusic(1, 1, true);
    }
    
    public int getID(){

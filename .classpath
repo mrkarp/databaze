@@ -2,23 +2,23 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/ibxm.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/jinput.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/jnlp.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/jogg-0.0.7.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/jorbis-0.0.15.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/lwjgl.jar">
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/ibxm.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/jinput.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/jnlp.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/lwjgl.jar">
 		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Program Files/Java/slick"/>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Program Files/Java/libs"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/lwjgl_util.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/lwjgl_util_applet.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/natives-linux.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/natives-mac.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/natives-windows.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/slick.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/slick-examples.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files/Java/slick/lib/tinylinepp.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/lwjgl_util_applet.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/natives-linux.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/natives-mac.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/slick.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/slick-examples.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/libs/lib/tinylinepp.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

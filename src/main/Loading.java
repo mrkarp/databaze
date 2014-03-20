@@ -37,7 +37,7 @@ public class Loading extends BasicGameState {
 	public void update(GameContainer gc, StateBasedGame sbg, int delta) throws SlickException {
 		sbg.enterState(1, new FadeOutTransition(Color.black, 0000),new FadeInTransition(Color.black, 4000));
 		System.out.println("**Splash**");
-		karpCodeLogo.playAsMusic(1, 1, false);
+		//karpCodeLogo.playAsMusic(1, 1, false);
 	}
 
 	public int getID() {
